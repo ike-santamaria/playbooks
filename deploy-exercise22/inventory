@@ -1,5 +1,5 @@
 [controlnode]
-localhost 
+localhost ansible_connection=local 
 
 [intranetweb]
 vm-22-node1-ansible.example.com
