@@ -1,0 +1,6 @@
+[controlnode]
+localhost 
+
+[intranetweb]
+vm-22-node1-ansible.example.com
+vm-22-node2-ansible.example.com
