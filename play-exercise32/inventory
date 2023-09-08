@@ -1,0 +1,5 @@
+[controlnode]
+localhost ansible_connection=local
+
+[intranet]
+vm-22-node2-ansible
