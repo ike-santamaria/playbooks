@@ -1,0 +1,6 @@
+[control]
+localhost ansible_connection=local
+
+[webserver]
+vm-22-node1-ansible
+vm-22-node2-ansible
