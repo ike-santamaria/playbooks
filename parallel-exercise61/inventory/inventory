@@ -1,3 +1,4 @@
 [webservers]
+#vm-22-control-ansible ansible_connection=local
 vm-22-node1-ansible
 vm-22-node2-ansible

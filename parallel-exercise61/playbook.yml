@@ -1,17 +1,20 @@
+---
 - name: Update apache
   hosts: webservers
+  serial: 1
 
   tasks:
     - name: Latest version of apache installed
-      yum:
+      ansible.builtin.dnf:
         name: httpd
         state: latest
       notify:
-        - Restart apache
+        - Restart apache httpd
 
+  # This activity depends from the previous task Notify - Restart apache
   handlers:
-    - name: Restart apache
-      service:
+    - name: Restart apache httpd
+      ansible.builtin.service:
         name: httpd
         enabled: yes
         state: restarted
