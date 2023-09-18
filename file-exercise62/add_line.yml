@@ -1,0 +1,10 @@
+---
+- name: Add text to an existing file
+  hosts: servers
+  become: false
+  tasks:
+    - name: Add a single line of text to a file
+      lineinfile:
+        path: /home/automation/users.txt
+        line: "This line was added by the lineinfile module.\n"
+        state: present

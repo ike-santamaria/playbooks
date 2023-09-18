@@ -1,0 +1,9 @@
+---
+- name: Use the file module to remove a file
+  hosts: servers
+  become: false
+  tasks:
+    - name: Remove a file from managed hosts
+      file:
+        path: /home/automation/users.txt
+        state: absent

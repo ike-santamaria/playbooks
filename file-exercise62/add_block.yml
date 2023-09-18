@@ -1,0 +1,12 @@
+---
+- name: Add block of text to a file
+  hosts: servers
+  become: false
+  tasks:
+    - name: Add a block of text to an existing file
+      ansible.builtin.blockinfile:
+        path: /home/automation/users.txt
+        block: |
+          This block of text consists of two lines.
+          They have been added by the blockinfile module.
+        state: present

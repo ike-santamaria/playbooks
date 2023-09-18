@@ -1,0 +1,23 @@
+Sep 18 17:41:25 vm-22-node1-ansible sshd[71821]: Accepted publickey for automation from 192.168.122.55 port 52422 ssh2: RSA SHA256:qAp5hsyQSku3+AXIrCFPaJmqo3orqsARH80Ea7uIawM
+Sep 18 17:41:25 vm-22-node1-ansible systemd[71825]: pam_unix(systemd-user:session): session opened for user automation by (uid=0)
+Sep 18 17:41:26 vm-22-node1-ansible sshd[71821]: pam_unix(sshd:session): session opened for user automation by (uid=0)
+Sep 18 17:41:26 vm-22-node1-ansible sudo[71944]: automation : TTY=pts/0 ; PWD=/home/automation ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pmdrxjxjxewlpaqjcrwykazqqngmnhta ; /usr/libexec/platform-python /home/automation/.ansible/tmp/ansible-tmp-1695073286.1185045-63931-204484985852840/AnsiballZ_setup.py
+Sep 18 17:41:26 vm-22-node1-ansible sudo[71944]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Sep 18 17:41:26 vm-22-node1-ansible sudo[71944]: pam_unix(sudo:session): session opened for user root by automation(uid=0)
+Sep 18 17:41:27 vm-22-node1-ansible sudo[71944]: pam_unix(sudo:session): session closed for user root
+Sep 18 17:41:28 vm-22-node1-ansible sudo[72077]: automation : TTY=pts/0 ; PWD=/home/automation ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-paokxboygrnwlmlncvjvcohaaglzzlbi ; /usr/libexec/platform-python /home/automation/.ansible/tmp/ansible-tmp-1695073287.8467758-63963-223813578482076/AnsiballZ_slurp.py
+Sep 18 17:41:28 vm-22-node1-ansible sudo[72077]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Sep 18 17:41:28 vm-22-node1-ansible sudo[72077]: pam_unix(sudo:session): session opened for user root by automation(uid=0)
+Sep 18 17:41:28 vm-22-node1-ansible sudo[72077]: pam_unix(sudo:session): session closed for user root
+Sep 18 17:42:28 vm-22-node1-ansible sshd[71836]: Received disconnect from 192.168.122.55 port 52422:11: disconnected by user
+Sep 18 17:42:28 vm-22-node1-ansible sshd[71836]: Disconnected from user automation 192.168.122.55 port 52422
+Sep 18 17:42:28 vm-22-node1-ansible sshd[71821]: pam_unix(sshd:session): session closed for user automation
+Sep 18 17:42:28 vm-22-node1-ansible systemd[71828]: pam_unix(systemd-user:session): session closed for user automation
+Sep 18 17:42:53 vm-22-node1-ansible sshd[72110]: Accepted publickey for automation from 192.168.122.55 port 52426 ssh2: RSA SHA256:qAp5hsyQSku3+AXIrCFPaJmqo3orqsARH80Ea7uIawM
+Sep 18 17:42:53 vm-22-node1-ansible systemd[72114]: pam_unix(systemd-user:session): session opened for user automation by (uid=0)
+Sep 18 17:42:53 vm-22-node1-ansible sshd[72110]: pam_unix(sshd:session): session opened for user automation by (uid=0)
+Sep 18 17:43:30 vm-22-node1-ansible sudo[72530]: automation : a password is required ; TTY=pts/0 ; PWD=/home/automation ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jbdtyulxgqnmxdotsytxvysogguphdng ; /usr/libexec/platform-python /home/automation/.ansible/tmp/ansible-tmp-1695073409.7534385-64055-130305660457304/AnsiballZ_setup.py
+Sep 18 17:43:38 vm-22-node1-ansible sudo[72652]: automation : TTY=pts/0 ; PWD=/home/automation ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-inscqxwzhskqjftizdadukgjajujdpam ; /usr/libexec/platform-python /home/automation/.ansible/tmp/ansible-tmp-1695073418.1203256-64082-165395906640783/AnsiballZ_setup.py
+Sep 18 17:43:38 vm-22-node1-ansible sudo[72652]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Sep 18 17:43:38 vm-22-node1-ansible sudo[72652]: pam_unix(sudo:session): session opened for user root by automation(uid=0)
+Sep 18 17:43:39 vm-22-node1-ansible sudo[72652]: pam_unix(sudo:session): session closed for user root
