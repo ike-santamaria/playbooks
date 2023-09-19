@@ -1,0 +1,6 @@
+[webservers]
+vm-22-node1-ansible
+vm-22-node2-ansible
+
+[workstations]
+vm-22-control-ansible ansible_connection=local

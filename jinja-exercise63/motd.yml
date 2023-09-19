@@ -1,0 +1,16 @@
+---
+- name: Playbook using tem
+  hosts: webservers
+  user: automation
+  become: true
+  vars:
+    system_owner: "luis2.vazquez@hsbc.com.mx"
+  
+  tasks:
+    - name: Install template motd.j2
+      ansible.builtin.template:
+        src: templates/motd.j2
+        dest: /etc/motd
+        owner: root
+        group: root
+        mode: 0644
