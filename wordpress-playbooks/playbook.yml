@@ -1,0 +1,9 @@
+---
+- name: Setup WordPress
+  hosts: wordpress 
+  gather_facts: false
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress
